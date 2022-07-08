@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0c1729;
+}
+section{
+    width: 100%;
+    height: 110vh;
+}
+
+section .container{
+    width: 450px;
+    height: 700px;
+    background-color: #15273f;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 2%;
+    
+    
+}
+section .container-img{
+    overflow: hidden; /*Makes the div not increase its dimensions because of the img*/
+    width: 400px;
+    height: 400px;
+    margin: auto;   
+    padding: 20px;
+}
+section .container-img img{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+/*====== Title content =====*/
+
+section .description{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 30px;
+    width: 350px;
+    height: 100px;
+}
+section .description h1{
+    color: #f5fcfc;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+}
+section .description p{
+    color: #8ba5d0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+/*====== Title content =====*/
+
+/*====== items content =====*/
+section .items-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 450px;
+    height: 50px;
+}
+section .item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 25px;
+}
+section .item h1{
+    color:#06fcf6;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+}
+section .time{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 25px;
+}
+section .time h1{
+    color: #8aa3c4;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+}
+/*====== items content =====*/
+
+section .line{
+    margin: auto;
+    margin-top: 15px;
+    width: 400px;
+    border: 1px solid #2e4058;
+    background-color: #2e4058;
+}
+section .credits{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    gap: 20px;
+}
+section .credits h1{
+    color: #9db4d8;
+    font-size: 24px;
+}
+section .credits span{
+    color: #f4ffff;
+}
+section .credits img{
+  border: 2px solid white;
+  border-radius: 100px;
+  width: 50px;  
+}
