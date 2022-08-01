@@ -19,8 +19,6 @@ section .container{
     border-radius: 15px;
     margin: auto;
     margin-top: 2%;
-    
-    
 }
 section .container-img{
     overflow: hidden; /*Makes the div not increase its dimensions because of the img*/
